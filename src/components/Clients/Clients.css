@@ -1,0 +1,48 @@
+.clients {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.client {
+  flex-basis: calc(20% - 10px);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.client img {
+  width: 200%;
+  border-radius: 10px;
+  /* Adjust image size */
+  max-width: 150px; /* Change the value as needed */
+  max-height: 150px; /* Change the value as needed */
+  /* Add background */
+  background-color: #f0f0f0; /* Change the color as needed */
+  padding: 5px; /* Adjust padding as needed */
+}
+
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 15, 152, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.3s;
+}
+
+.client:hover .caption {
+  opacity: 0.8;
+  padding-top: 0;
+}
