@@ -22,12 +22,23 @@ a{
 }
 
 .btn{
-  background: white;
+  background: rgb(91, 115, 148);
   color: rgb(255, 196, 0);
   padding: 14px 25px;
-  font-size: 18px;
-  border-radius: 35px;
+  font-size: 16px;
+  border-radius: 50px;
   cursor: pointer;
   border: 0;
   outline: 0;
+}
+
+/*media query*/
+@media (max-width:1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
 }

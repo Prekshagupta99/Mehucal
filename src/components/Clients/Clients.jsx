@@ -1,3 +1,4 @@
+
 import React from 'react'
 import image1 from '../../assets/ClientsLogos/image1.png'
 import image10 from '../../assets/ClientsLogos/image10.png'
@@ -61,8 +62,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-      <div className='clients'>
         <div className="client">
           <img src={image6} alt="" />
           <div className="caption">
@@ -93,8 +92,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-      <div className='clients'>
         <div className="client">
           <img src={image11} alt="" />
           <div className="caption">
@@ -125,8 +122,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-      <div className='clients'>
         <div className="client">
           <img src={image16} alt="" />
           <div className="caption">
@@ -136,8 +131,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-
-
         <div className="client">
           <img src={image17} alt="" />
           <div className="caption">
@@ -162,10 +155,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-
-
-      <div className='clients'>
         <div className="client">
           <img src={image21} alt="" />
           <div className="caption">
