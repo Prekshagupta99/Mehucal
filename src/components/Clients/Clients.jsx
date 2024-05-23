@@ -46,15 +46,11 @@ const Clients = () => {
         </div>
         <div className="client">
           <img src={image3} alt="" />
-          <div className="caption">
-            <p> TO BE ADDED</p>
-          </div>
+          
         </div>
         <div className="client">
           <img src={image4} alt="" />
-          <div className="caption">
-            <p> TO BE ADDED</p>
-          </div>
+          
         </div>
         <div className="client">
           <img src={image5} alt="" />

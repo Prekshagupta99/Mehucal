@@ -9,17 +9,16 @@ const Facility = () => {
         <h3>OUR FACILITIES</h3>
         <h2>TAGLINE WE CAN ADD</h2>
         <p>
-          We have an expert team of professionals for various processes of manufacturing and quality
-          control. Along with this our front desk staff is professionally experienced in fulfilling all the
-          customer requirements. The team is fully capable in providing customised solutions to our
-          clients as per their needs &amp; requirements.
+        We have in house facility from beginning to finishing. Our major processes include casting,
+turning Lathe Work, Hydraulic Press/punching machine, Hydraulic Bending machine, Drilling,
+Grinding, buffing, Paint &amp; Coating, Chemical Imprigation, etc. Along with these, we have all
+
+the major testing facilities in house to maintain the best in market quality &amp; standards. We
+have in house pneumatic testing, air-controlled calibration, endurance testing facility,
+leakage testing unit, etc.
         </p>
         <p>
-          Our strong partnerships with suppliers, distributors, and clients all over the country have
-          helped us establish a strong presence in the government sector as well as private market.
-          We are delivering our products in almost every state of the country and still penetrating the
-          market with our superior quality. We are constantly exploring new opportunities for growth
-          and expansion, and we are open to collaborations that align with our values and vision.
+          
         </p>
       </div>
       <div className="facility-right">
