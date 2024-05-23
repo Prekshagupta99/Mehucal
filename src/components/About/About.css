@@ -1,39 +1,42 @@
-.about{
+.about {
     margin: 100px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Add some padding for better readability */
 }
 
-.about-left{
-    flex-basis: 40%;
+.about-left {
+    flex-basis: 40%; /* Image on the left */
     position: relative;
 }
 
-.about-right{
-    flex-basis: 56%;
+.about-right {
+    flex-basis: 56%; /* Text on the right */
 }
 
-.about-img{
+.about-img {
     width: 100%;
     border-radius: 10px;
 }
 
-.about h3{
+.about h3 {
     font-weight: 600;
-    font-size: 16px;
-    color: goldenrod;
+    font-size: 20px;
+    color: #39396e; /* Dark text color */
 }
 
-.about h2{
+.about h2 {
     font-size: 35px;
-    color: black;
+    color: #39396e; /* Dark text color */
     margin: 10px 0;
     max-width: 400px;
 }
 
-.about p{
-    color: black;
-    margin-bottom: 15px;
+.about p {
+    color: #333; /* Slightly darker text color for better contrast */
+    margin-bottom: 22px;
+    font-size: 17px;
 }

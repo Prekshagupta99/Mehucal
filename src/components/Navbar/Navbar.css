@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    color: rgb(255, 179, 0);
+    color: #39396e;
     padding: 4px 0;
     position: fixed;
     top: 0;
@@ -23,7 +23,7 @@ nav {
   }
   
   .dark-nav {
-    background: black;
+    background: #a28c21;
     transition: 0.5s;
   }
   
@@ -43,7 +43,7 @@ nav {
       position: absolute;
       top: 100%;
       right: 0;
-      background: black;
+      background: #a28c21;
       height: 100vw; /* Expand menu to cover full width of the page */
       padding-top: 20px;
       transition: 0.5s;

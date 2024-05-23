@@ -7,18 +7,15 @@ const Facility = () => {
     <div className='facility'>
       <div className="facility-left">
         <h3>OUR FACILITIES</h3>
-        <h2>TAGLINE WE CAN ADD</h2>
+        {/* <h2>TAGLINE WE CAN ADD</h2> */}
         <p>
-        We have in house facility from beginning to finishing. Our major processes include casting,
-turning Lathe Work, Hydraulic Press/punching machine, Hydraulic Bending machine, Drilling,
-Grinding, buffing, Paint &amp; Coating, Chemical Imprigation, etc. Along with these, we have all
-
-the major testing facilities in house to maintain the best in market quality &amp; standards. We
-have in house pneumatic testing, air-controlled calibration, endurance testing facility,
-leakage testing unit, etc.
+        
+With a comprehensive array of in-house facilities encompassing everything from initial casting to meticulous finishing, our company is fully equipped to deliver excellence at every stage of production. Our extensive processes include casting, turning lathe work, hydraulic press punching, hydraulic bending, drilling, grinding, buffing, paint and coating application, chemical impregnation, and more. 
+        </p>
+        <p>From pneumatic testing to air-controlled calibration, endurance testing, and leakage testing, we ensure that our products meet stringent performance criteria. This commitment to quality assurance extends throughout every aspect of our operations, reflecting our dedication to customer satisfaction and product excellence.
         </p>
         <p>
-          
+        By maintaining a comprehensive suite of manufacturing and testing capabilities under one roof, we streamline production processes and maintain strict control over quality at every step.
         </p>
       </div>
       <div className="facility-right">

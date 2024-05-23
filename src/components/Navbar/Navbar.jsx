@@ -22,12 +22,12 @@ const Navbar = () => {
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
       <img src={mehucal} alt="" className='logo' />
       <ul className={mobileMenu ? 'show-mobile-menu' : 'hide-mobile-menu'}>
-        <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
-        <li><Link to='clients' smooth={true} offset={-400} duration={500}>Our Clients</Link></li>
-        <li><Link to='about' smooth={true} offset={-150} duration={500}>About us</Link></li>
-        <li><Link to='product' smooth={true} offset={-260} duration={500}>Products</Link></li>
-        <li><Link to='facility' smooth={true} offset={-150} duration={500}>Our Facility</Link></li>
-        <li><Link to='contact' smooth={true} offset={-150} duration={500} className='btn'>Contact us</Link></li>
+        <li><Link to='hero' smooth={true} offset={0} duration={500}><b>Home</b></Link></li>
+        <li><Link to='about' smooth={true} offset={-150} duration={500}><b>About us</b></Link></li>
+        <li><Link to='products' smooth={true} offset={-250} duration={500}><b>Products</b></Link></li>
+        <li><Link to='facility' smooth={true} offset={-150} duration={500}><b>Facilities</b> </Link></li>
+        <li><Link to='clients' smooth={true} offset={-400} duration={500}><b>Our Clients</b></Link></li>
+        <li><Link to='contact' smooth={true} offset={-150} duration={500} className='btn'><b>Contact us</b></Link></li>
       </ul>
       <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu} />
     </nav>

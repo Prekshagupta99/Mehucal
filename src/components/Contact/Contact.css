@@ -14,7 +14,7 @@
 }
 
 .contact-col h3 {
-    color: goldenrod;
+    color: #a28c21;
     font-weight: 500;
     font-size: 25px;
     display: flex;
@@ -56,7 +56,7 @@
 .contact form input, .contact form textarea {
     display: block;
     width: 100%;
-    background: #f0e68c; /* Changing background color for better readability */
+    background: #a28c21; /* Changing background color for better readability */
     padding: 15px;
     border: 1px solid #ccc; /* Adding border for better visibility */
     outline: none;
@@ -67,7 +67,7 @@
 }
 
 .contact form button {
-    background: goldenrod;
+    background: #a28c21;
     color: white;
     padding: 15px;
     border: none;
@@ -77,7 +77,7 @@
 }
 
 .contact form button:hover {
-    background: darkgoldenrod;
+    background: #a28c21;
 }
 
 .contact-col span {

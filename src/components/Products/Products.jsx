@@ -7,9 +7,6 @@ const Products = () => {
         <div className="Products" id="programs">
             {/* Header */}
             <div className="products-header">
-                <span className="stroke-text">Explore our</span>
-                <span>Programs</span>
-                <span className="stroke-text">to shape you</span>
             </div>
             <div className="products-categories">
                 {productsData.map((product, index) => (

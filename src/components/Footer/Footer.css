@@ -1,11 +1,11 @@
-
 .footer{
     margin: 0 35px 5px 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    border-top: 1px solid #39396e;
     padding: 15px 0px;
+    color: #39396e;
 }
 
 .footer ul li{
