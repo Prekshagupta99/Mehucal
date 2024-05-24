@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../../assets/abou1.jpg'
+import facility_pic from '../../assets/facilities.jpg'
 import '../Facility/Facility.css'
 
 const Facility = () => {
@@ -7,7 +7,7 @@ const Facility = () => {
     <div className='facility'>
       <div className="facility-left">
         <h3>OUR FACILITIES</h3>
-        {/* <h2>TAGLINE WE CAN ADD</h2> */}
+         <h2>Quality without compromise</h2> 
         <p>
         
 With a comprehensive array of in-house facilities encompassing everything from initial casting to meticulous finishing, our company is fully equipped to deliver excellence at every stage of production. Our extensive processes include casting, turning lathe work, hydraulic press punching, hydraulic bending, drilling, grinding, buffing, paint and coating application, chemical impregnation, and more. 
@@ -19,7 +19,7 @@ With a comprehensive array of in-house facilities encompassing everything from i
         </p>
       </div>
       <div className="facility-right">
-        <img src={about} alt="" className='facility-img'/>
+        <img src={facility_pic} alt="" className='facility-img'/>
       </div>
     </div>
   )

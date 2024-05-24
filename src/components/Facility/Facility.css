@@ -23,19 +23,19 @@
 
 .facility h3 {
     font-weight: 600;
-    font-size: 20px;
-    color: #a28c21;
+    font-size: 30px;
+    color: #39396e;
 }
 
 .facility h2 {
     font-size: 20px;
-    color: #39396e; /* Dark text color */
+    color: #a28c21; /* Dark text color */
     margin: 10px 0;
     max-width: 400px;
 }
 
 .facility p {
-    color: #333; /* Slightly darker text color for better contrast */
+    color: #39396e; /* Slightly darker text color for better contrast */
     margin-bottom: 22px;
     font-size: 17px;
 }

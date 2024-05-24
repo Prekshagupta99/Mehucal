@@ -36,7 +36,7 @@ const Contact = () => {
         <h3>Send us a message<img src={msg_icon} alt="mail-icon" /></h3>
         <p>Feel free to reach out to us through contact information below.</p>
         <ul>
-          <li><img src={phone_icon} alt="phone-icon" />011-44077886, 9310005160</li>
+          <li><img src={phone_icon} alt="phone-icon" />+91-9310005160<br/>011-44077886</li>
           <li><img src={mail_icon} alt="mail-icon" />mehucalindia@gmail.com</li>
           <li><img src={location_icon} alt="location-icon" />Regd Address: <br />A-1/22, Jeevan Jyoti Apartments, Pitampura, Delhi, 110034</li>
           <li><img src={location_icon} alt="location-icon" />Work: <br />246, Pocket-E, Sector - 4, DSIIDC Industrial Area, Bawana, Delhi - 110039</li>

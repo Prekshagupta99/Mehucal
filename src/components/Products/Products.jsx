@@ -7,13 +7,13 @@ const Products = () => {
         <div className="Products" id="programs">
             {/* Header */}
             <div className="products-header">
+                Our Products
             </div>
             <div className="products-categories">
                 {productsData.map((product, index) => (
                     <div className="category" key={index}>
                         <img src={product.imgSrc} alt={product.heading} />
                         <span className="category-heading">{product.heading}</span>
-                        <span className="category-details">{product.details}</span>
                     </div>
                 ))}
             </div>

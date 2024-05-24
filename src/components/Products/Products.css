@@ -27,12 +27,12 @@
     display: flex;
     flex-direction: column;
     background-color: gray;
-    padding: 2rem;
-    gap: 1rem;
+    padding: 1rem;
+    gap: 0.5rem;
     color: white;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 300px;
     border-radius: 8px;
     transition: background 0.3s ease;
 }
@@ -49,9 +49,10 @@
 }
 
 .category-heading {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .category-details {
