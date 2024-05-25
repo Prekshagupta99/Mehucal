@@ -13,7 +13,7 @@
 }
 
 .facility-right {
-    flex-basis: 40%; /* Image on the right */
+    flex-basis: 33%; /* Image on the right */
 }
 
 .facility-img {
@@ -24,18 +24,18 @@
 .facility h3 {
     font-weight: 600;
     font-size: 30px;
-    color: #39396e;
+    color: #4e3426;
 }
 
 .facility h2 {
     font-size: 20px;
-    color: #a28c21; /* Dark text color */
+    color: #d39e71; /* Dark text color */
     margin: 10px 0;
     max-width: 400px;
 }
 
 .facility p {
-    color: #39396e; /* Slightly darker text color for better contrast */
+    color: #4e3426; /* Slightly darker text color for better contrast */
     margin-bottom: 22px;
     font-size: 17px;
 }

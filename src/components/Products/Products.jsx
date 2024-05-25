@@ -6,9 +6,7 @@ const Products = () => {
     return (
         <div className="Products" id="programs">
             {/* Header */}
-            <div className="products-header">
-                Our Products
-            </div>
+            <span></span>
             <div className="products-categories">
                 {productsData.map((product, index) => (
                     <div className="category" key={index}>

@@ -8,13 +8,13 @@
 }
 
 .contact-col {
-    color: black;
+    color: #4e3426;
     flex: 1; /* Ensuring both columns take up equal space */
     max-width: 45%; /* Ensuring they don't exceed half the container */
 }
 
 .contact-col h3 {
-    color: #a28c21;
+    color: #4e3426;
     font-weight: 500;
     font-size: 25px;
     display: flex;
@@ -56,9 +56,9 @@
 .contact form input, .contact form textarea {
     display: block;
     width: 100%;
-    background: #a28c21; /* Changing background color for better readability */
+    background: #ff770019; /* Changing background color for better readability */
     padding: 15px;
-    border: 1px solid #ccc; /* Adding border for better visibility */
+    border: 1px solid #4e3426; /* Adding border for better visibility */
     outline: none;
     margin-bottom: 15px; /* Reducing margin for better spacing */
     margin-top: 5px;
@@ -67,8 +67,8 @@
 }
 
 .contact form button {
-    background: #a28c21;
-    color: white;
+    background: #4e3426;
+    color: 4e3426;
     padding: 15px;
     border: none;
     cursor: pointer;
@@ -77,14 +77,14 @@
 }
 
 .contact form button:hover {
-    background: #a28c21;
+    background: #4e3426;
 }
 
 .contact-col span {
     display: block;
     margin: 15px 0;
     font-weight: bold;
-    color: green;
+    color: 4e3426;
 }
 
 @media screen and (max-width: 768px) {
