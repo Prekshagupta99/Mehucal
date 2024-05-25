@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Revue&display=swap');
+
 .hero{
     /*linear-gradient(rgba(58, 55, 0, 0.7),rgba(58, 55, 0, 0.7))*/
     background: url('../../assets/bg1.jpg');
@@ -48,7 +50,7 @@
     font-weight: 600;
     color: #d39e71;
     filter: brightness(100%);
-    font-family: 'Revue', sans-serif;
+    font-family: 'Revue';
 }
 
 .hero-text p{
@@ -57,3 +59,8 @@
     line-height: 1.4;
     filter: brightness(100%);
 }
+
+@font-face {
+    font-family: 'Revue';
+    src: url('./fonts/Revue.ttf') format('truetype'); /* Adjust the path as needed */
+  }

@@ -6,11 +6,11 @@ const Products = () => {
     return (
         <div className="Products" id="programs">
             {/* Header */}
-            <span></span>
+            <span><br/><br/></span>
             <div className="products-categories">
                 {productsData.map((product, index) => (
                     <div className="category" key={index}>
-                        <img src={product.imgSrc} alt={product.heading} />
+                        <img src={product.image} alt={product.heading} />
                         <span className="category-heading">{product.heading}</span>
                     </div>
                 ))}
