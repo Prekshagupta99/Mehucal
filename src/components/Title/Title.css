@@ -5,6 +5,7 @@
     font-weight: 600;
     text-transform: none;
     margin: 70px 150px 0px 150px;
+    font-family: 'Revue', sans-serif;
 }
 .title h2{
     font-size: 34px;
@@ -12,5 +13,5 @@
     margin-top: 5px;
     text-transform: uppercase;
     margin: 70px 40px 10px 30px;
-
+    font-family: 'Revue', sans-serif;
 }
