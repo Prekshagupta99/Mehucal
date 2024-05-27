@@ -4,19 +4,38 @@ import image3 from "../assets/Railway.jpg";
 import image4 from "../assets/SS.jpg";
 export const productsData = [
     {
-        heading: "Bath Fittings",
-        image: image1
+        name: "Macbook",
+        price: "Rs 12,999",
+        image: "https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"    
     },
     {
-        heading: "MCI Fittings",
-        image: image2
+        name: "Macbook",
+        price: "Rs 12,999",
+        image: "https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"    
     },
     {
-        heading: "Railway Specific Products",
-        image:image3
+        name: "Macbook",
+        price: "Rs 12,999",
+        image: "https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"    
     },
     {
-        heading: "Stainless Steel fittings",
-        image:image4
-    }
+        name: "Macbook",
+        price: "Rs 12,999",
+        image: "https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"    
+    },
+    {
+        name: "Macbook",
+        price: "Rs 12,999",
+        image: "https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        name: "Macbook",
+        price: "Rs 12,999",
+        image: "https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        name: "Macbook",
+        price: "Rs 12,999",
+        image:"https://images.unsplash.com/photo-1491472253230-a044054ca35f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D"    
+    },
 ];
