@@ -1,17 +1,20 @@
-.contact{
+.contact {
     margin: 80px auto;
     max-width: 90%;
     display: flex;
     align-content: center;
     justify-content: space-between;
+    gap: 2rem; /* Adding gap between the two columns */
 }
 
-.contact-col{
-    color: black;
+.contact-col {
+    color: #4e3426;
+    flex: 1; /* Ensuring both columns take up equal space */
+    max-width: 45%; /* Ensuring they don't exceed half the container */
 }
 
-.contact-col h3{
-    color:goldenrod;
+.contact-col h3 {
+    color: #4e3426;
     font-weight: 500;
     font-size: 25px;
     display: flex;
@@ -19,24 +22,80 @@
     margin-bottom: 20px;
 }
 
-.contact-col h3 img{
+.contact-col h3 img {
     width: 35px;
     margin-left: 10px;
 }
 
-.contact-col p{
+.contact-col p {
     max-width: 450px;
     list-style: 0.3;
 }
 
-.contact-col ul li{
+.contact-col ul li {
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 
-.contact-col ul li img{
+.contact-col ul li img {
     width: 25px;
     margin-right: 10px;
+}
 
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact form input, .contact form textarea {
+    display: block;
+    width: 100%;
+    background: #ff770019; /* Changing background color for better readability */
+    padding: 15px;
+    border: 1px solid #4e3426; /* Adding border for better visibility */
+    outline: none;
+    margin-bottom: 15px; /* Reducing margin for better spacing */
+    margin-top: 5px;
+    resize: none;
+    border-radius: 5px; /* Adding border radius for rounded corners */
+}
+
+.contact form button {
+    background: #4e3426;
+    color: 4e3426;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px; /* Adding border radius for rounded corners */
+}
+
+.contact form button:hover {
+    background: #4e3426;
+}
+
+.contact-col span {
+    display: block;
+    margin: 15px 0;
+    font-weight: bold;
+    color: 4e3426;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .contact-col {
+        max-width: 100%;
+    }
 }

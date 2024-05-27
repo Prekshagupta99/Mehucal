@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=Revue&display=swap');
 
 *{
   margin: 0;
@@ -10,6 +11,7 @@
 }
 body{
   background-color: white;
+  
 }
 a{
   text-decoration: none;
@@ -24,12 +26,24 @@ a{
 }
 
 .btn{
-  background: white;
-  color: rgb(255, 196, 0);
+  background: #4e3426;
+  color: #d39e71;
   padding: 14px 25px;
-  font-size: 18px;
-  border-radius: 35px;
+  font-size: 16px;
+  border-radius: 50px;
   cursor: pointer;
   border: 0;
   outline: 0;
+}
+
+
+/*media query*/
+@media (max-width:1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn{
+    padding: 14px 22px;
+  }
 }

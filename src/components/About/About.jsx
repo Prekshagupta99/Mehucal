@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className="about-right">
         <h3>ABOUT US</h3>
-        <h2>TAGLINE WE CAN ADD</h2>
+        <h2>Pursuit of Excellence</h2> 
         <p>
         We are approved vendor of Indian Railways for various Products including Pneumatic Air
 brake fittings, MCI Fittings, Bio-toilet fittings, Retention Tank parts &amp; Accessories like S trap,

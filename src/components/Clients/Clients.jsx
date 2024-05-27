@@ -16,7 +16,6 @@ import image21 from '../../assets/ClientsLogos/image21.png'
 import image22 from '../../assets/ClientsLogos/image22.png'
 import image23 from '../../assets/ClientsLogos/image23.png'
 import image24 from '../../assets/ClientsLogos/image24.png'
-// import image25 from '../../assets/ClientsLogos/image25.png'
 import image3 from '../../assets/ClientsLogos/image3.png'
 import image4 from '../../assets/ClientsLogos/image4.png'
 import image5 from '../../assets/ClientsLogos/image5.png'
@@ -26,7 +25,6 @@ import image8 from '../../assets/ClientsLogos/image8.png'
 import image9 from '../../assets/ClientsLogos/image9.png'
 
 import '../Clients/Clients.css'
-
 const Clients = () => {
   return (
     <div>
@@ -54,6 +52,7 @@ const Clients = () => {
           <div className="caption">
             <p> TO BE ADDED</p>
           </div>
+          
         </div>
         <div className="client">
           <img src={image5} alt="" />
@@ -61,8 +60,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-      <div className='clients'>
         <div className="client">
           <img src={image6} alt="" />
           <div className="caption">
@@ -93,8 +90,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-      <div className='clients'>
         <div className="client">
           <img src={image11} alt="" />
           <div className="caption">
@@ -125,8 +120,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-      <div className='clients'>
         <div className="client">
           <img src={image16} alt="" />
           <div className="caption">
@@ -136,8 +129,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-
-
         <div className="client">
           <img src={image17} alt="" />
           <div className="caption">
@@ -162,10 +153,6 @@ const Clients = () => {
             <p> TO BE ADDED</p>
           </div>
         </div>
-      </div>
-
-
-      <div className='clients'>
         <div className="client">
           <img src={image21} alt="" />
           <div className="caption">

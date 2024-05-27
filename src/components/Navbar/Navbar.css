@@ -1,7 +1,6 @@
-nav{
-    width:100%;
-    /*background: goldenrod;*/
-    color: rgb(255, 179, 0);
+nav {
+    width: 100%;
+    color: #d39e71;
     padding: 4px 0;
     position: fixed;
     top: 0;
@@ -10,19 +9,57 @@ nav{
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-}
-.logo{
+  }
+  
+  .logo {
     width: 80px;
-    
-}
-nav ul li {
+  }
+  
+  nav ul li {
     display: inline-block;
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
-}
-
-.dark-nav{
-    background: black;
+  }
+  
+  .dark-nav {
+    background: #4e3426;
     transition: 0.5s;
-}
+  }
+  
+  .menu-icon {
+    display: none; /* Hide menu icon by default */
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  /* Media query */
+  @media (max-width: 840px) {
+    .menu-icon {
+      display: block; /* Display menu icon on smaller screens */
+    }
+    
+    nav ul {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: #d39e71;
+      height: 100vw; /* Expand menu to cover full width of the page */
+      padding-top: 20px;
+      transition: 0.5s;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 25px 40px;
+    }
+  
+    .hide-mobile-menu {
+      display: none; /* Hide menu on smaller screens by default */
+    }
+  
+    .show-mobile-menu {
+      display: block; /* Display menu on smaller screens when toggled */
+    }
+  }
+  

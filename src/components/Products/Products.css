@@ -1,16 +1,37 @@
-.Products {
+:root {
+    --primary-color: #4e3426;
+    --secondary-color: #d39e71;
+    --background-color: #f5f5f5;
+    --card-bg-color: #ffffff;
+    --card-hover-bg-color: #d39e71;
+    --text-color: #4e3426;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.products {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 0 2rem;
+    padding: 2rem 5%;
 }
 
 .products-header {
     display: flex;
-    gap: 5rem;
+    justify-content: center;
     font-weight: bold;
     font-size: 3rem;
     justify-content: center;
+    color: var(--primary-color);
     text-transform: uppercase;
 }
 
@@ -35,25 +56,40 @@
     color: rgba(0, 0, 0, 0.8);
     justify-content: space-between;
     align-items: center;
-    width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 22%; /* Adjust width to fit four cards in one row */
     border-radius: 8px;
-    transition: background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .category img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 90%;
+  height: 250px; /* Adjusted height for better visibility */
+    border-radius: 10px;
+  object-fit: cover; /* Ensures the image covers the container */
 }
 
 .category-heading {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 0.5rem;
 }
 
 .category-details {
-    font-size: 0.9rem;
-    line-height: 25px;
+    font-size: 1rem;
+    line-height: 1.5;
     text-align: center;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+.products-categories {
+    gap: 0.5rem; /* Reduced gap for smaller screens */
+}
+.category {
+    width: 24%; /* Adjust width for better fit */
+}
 }

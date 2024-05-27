@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../../assets/abou1.jpg'
+import facility_pic from '../../assets/facilities.jpg'
 import '../Facility/Facility.css'
 
 const Facility = () => {
@@ -7,23 +7,19 @@ const Facility = () => {
     <div className='facility'>
       <div className="facility-left">
         <h3>OUR FACILITIES</h3>
-        <h2>TAGLINE WE CAN ADD</h2>
+         <h2>Quality without compromise</h2> 
         <p>
-          We have an expert team of professionals for various processes of manufacturing and quality
-          control. Along with this our front desk staff is professionally experienced in fulfilling all the
-          customer requirements. The team is fully capable in providing customised solutions to our
-          clients as per their needs &amp; requirements.
+        
+With a comprehensive array of in-house facilities encompassing everything from initial casting to meticulous finishing, our company is fully equipped to deliver excellence at every stage of production. Our extensive processes include casting, turning lathe work, hydraulic press punching, hydraulic bending, drilling, grinding, buffing, paint and coating application, chemical impregnation, and more. 
+        </p>
+        <p>From pneumatic testing to air-controlled calibration, endurance testing, and leakage testing, we ensure that our products meet stringent performance criteria. This commitment to quality assurance extends throughout every aspect of our operations, reflecting our dedication to customer satisfaction and product excellence.
         </p>
         <p>
-          Our strong partnerships with suppliers, distributors, and clients all over the country have
-          helped us establish a strong presence in the government sector as well as private market.
-          We are delivering our products in almost every state of the country and still penetrating the
-          market with our superior quality. We are constantly exploring new opportunities for growth
-          and expansion, and we are open to collaborations that align with our values and vision.
+        By maintaining a comprehensive suite of manufacturing and testing capabilities under one roof, we streamline production processes and maintain strict control over quality at every step.
         </p>
       </div>
       <div className="facility-right">
-        <img src={about} alt="" className='facility-img'/>
+        <img src={facility_pic} alt="" className='facility-img'/>
       </div>
     </div>
   )
