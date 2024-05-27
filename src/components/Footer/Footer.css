@@ -6,7 +6,6 @@
     border-top: 1px solid #4e3426;
     padding: 15px 0px;
     color: #4e3426;
-    font-family: 'Revue', sans-serif;
 }
 
 .footer ul li{
@@ -14,9 +13,6 @@
     display: inline-block;
     margin-left: 20;
     padding: 0 5px 0 20px;
-    font-family: 'Revue', sans-serif;
 }
 
-.p{
-    font-family: 'Revue', sans-serif;
-}
+

@@ -20,7 +20,6 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    font-family: 'Revue', sans-serif;
 }
 
 .contact-col h3 img {
@@ -31,14 +30,12 @@
 .contact-col p {
     max-width: 450px;
     list-style: 0.3;
-    font-family: 'Revue', sans-serif;
 }
 
 .contact-col ul li {
     display: flex;
     align-items: center;
     margin: 20px 0;
-    font-family: 'Revue', sans-serif;
 }
 
 .contact-col ul li img {
@@ -49,7 +46,6 @@
 .contact form {
     display: flex;
     flex-direction: column;
-    font-family: 'Revue', sans-serif;
 }
 
 .contact form label {
@@ -67,7 +63,6 @@
     margin-bottom: 15px; /* Reducing margin for better spacing */
     margin-top: 5px;
     resize: none;
-    font-family: 'Revue', sans-serif;
     border-radius: 5px; /* Adding border radius for rounded corners */
 }
 
@@ -78,7 +73,6 @@
     border: none;
     cursor: pointer;
     transition: background 0.3s ease;
-    font-family: 'Revue', sans-serif;
     border-radius: 5px; /* Adding border radius for rounded corners */
 }
 

@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import mehucal from "../../assets/mehucal.png";
 import menu_icon from "../../assets/menu-icon.png";
 import './Navbar.css';
-import facility__image from '../../assets/facilities.jpg'
 
 
 const Navbar = () => {

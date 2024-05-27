@@ -13,14 +13,12 @@ import Title from './components/Title/Title';
 const App = () => {
   return (
     <div className="App">
-      
       <Navbar />
       <Hero />
       <About />
       <Title subTitle='Our Products' title='Feel free to reach us' />
       <span><br/><br/></span>
       <Products />
-      
       <Facility />
       <div className=''>
         <Title subTitle='Our Clients' title='Exceeding the expectations, consistently' />

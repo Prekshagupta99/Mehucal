@@ -14,7 +14,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Revue', sans-serif;
 }
 .hero::after {
     content: "";
@@ -27,7 +26,6 @@
     filter: brightness(45%);
     position: absolute;
     z-index: 0;
-    font-family: 'Revue', sans-serif;
 }
 
 .hero-text{
@@ -42,7 +40,6 @@
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    font-family: 'Revue', sans-serif;
 }
 
 .hero-text h1{
@@ -50,7 +47,7 @@
     font-weight: 600;
     color: #d39e71;
     filter: brightness(100%);
-    font-family: 'Revue';
+    font-family: 'revue' , sans-serif;
 }
 
 .hero-text p{
@@ -59,8 +56,3 @@
     line-height: 1.4;
     filter: brightness(100%);
 }
-
-@font-face {
-    font-family: 'Revue';
-    src: url('./fonts/Revue.ttf') format('truetype'); /* Adjust the path as needed */
-  }
