@@ -1,20 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
-import { productsData } from "../../data/products";
+import { bathData, mciData, railwayData, ssData } from "../../data/products";
 import '../Products/Products.css';
 
 const Products = () => {
+    const [category, setCategory] = useState('Bath Fittings');
+
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 6,
         slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
@@ -30,18 +32,31 @@ const Products = () => {
         ]
     };
 
+    const getProducts = () => {
+        switch (category) {
+            case 'MCI Fittings':
+                return mciData;
+            case 'Railway Specific Products':
+                return railwayData;
+            case 'Stainless Steel Fittings':
+                return ssData;
+            default:
+                return bathData;
+        }
+    };
+
     return (
         <div className="Products" id="programs">
             <div>
-                <div className="products-header">
-                    New Arrivals
-                </div>
                 <p className="products-subheader">
-                    New Arrivals
+                    <button onClick={() => setCategory('Bath Fittings')}>Bath Fittings</button>
+                    <button onClick={() => setCategory('MCI Fittings')}>MCI Fittings</button>
+                    <button onClick={() => setCategory('Railway Specific Products')}>Railway Specific Products</button>
+                    <button onClick={() => setCategory('Stainless Steel Fittings')}>Stainless Steel Fittings</button>
                 </p>
             </div>
             <Slider {...settings} className="products-categories">
-                {productsData.map((product, index) => (
+                {getProducts().map((product, index) => (
                     <div className="category" key={index}>
                         <img src={product.image} alt={product.name} />
                         <span className="category-heading">{product.name}</span>

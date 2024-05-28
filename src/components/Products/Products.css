@@ -16,6 +16,8 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Disable scrolling */
 }
 
 .products {
@@ -30,22 +32,38 @@ body {
     justify-content: center;
     font-weight: bold;
     font-size: 3rem;
-    justify-content: center;
     color: var(--primary-color);
     text-transform: uppercase;
 }
 
 .products-subheader {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 0.5rem;
+    gap: 10px;
+    margin-bottom: 2rem;
 }
 
-.slick-slide {
+.products-subheader button {
+    padding: 10px 20px;
+    background-color: var(--card-bg-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-color);
+    transition: background-color 0.3s ease;
+}
+
+.products-subheader button:hover {
+    background-color: var(--card-hover-bg-color);
+    color: white;
+}
+
+.products-categories {
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .category {
@@ -56,40 +74,45 @@ body {
     color: rgba(0, 0, 0, 0.8);
     justify-content: space-between;
     align-items: center;
-    margin-left: 25px;
-    margin-right: 25px;
     width: 22%; /* Adjust width to fit four cards in one row */
+    height: 350px; /* Fixed height for uniform size */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease, transform 0.3s ease;
+    text-align: center;
 }
 
 .category img {
-    width: 90%;
-  height: 250px; /* Adjusted height for better visibility */
+    width: 85%;
+    height: 85%; /* Adjusted height for better visibility */
     border-radius: 10px;
-  object-fit: cover; /* Ensures the image covers the container */
+    object-fit: contain;
 }
 
 .category-heading {
     font-size: 1.2rem;
     font-weight: bold;
-    text-align: center;
     margin-top: 0.5rem;
-}
-
-.category-details {
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: center;
-    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 1200px) {
-.products-categories {
-    gap: 0.5rem; /* Reduced gap for smaller screens */
+    .products-categories {
+        gap: 0.5rem; /* Reduced gap for smaller screens */
+    }
+    .category {
+        width: 24%; /* Adjust width for better fit */
+    }
 }
-.category {
-    width: 24%; /* Adjust width for better fit */
+
+@media screen and (max-width: 768px) {
+    .category {
+        width: 48%; /* Adjust width for smaller screens */
+    }
 }
+
+@media screen and (max-width: 480px) {
+    .category {
+        width: 100%; /* Full width for very small screens */
+    }
 }
