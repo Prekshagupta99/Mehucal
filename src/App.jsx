@@ -17,13 +17,11 @@ const App = () => {
       <Hero />
       <About />
       <Title subTitle='Our Products' title='Feel free to reach us' />
-      <span><br/><br/></span>
+      <span></span>
       <Products />
       <Facility />
-      <div className=''>
         <Title subTitle='Our Clients' title='Exceeding the expectations, consistently' />
-        <Clients />
-      </div>
+      <Clients />
       <Title subTitle='Contact us' title='Feel free to reach us' />
       <Contact />
       <Footer />

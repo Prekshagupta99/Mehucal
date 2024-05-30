@@ -46,7 +46,7 @@ const Products = () => {
     };
 
     return (
-        <div className="products" id="programs">
+        <div className="products" id="programs" name="products">
             <div>
                 <p className="products-subheader">
                     <button onClick={() => setCategory('Bath Fittings')}>Bath Fittings</button>
