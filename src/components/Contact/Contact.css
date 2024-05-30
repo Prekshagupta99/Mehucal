@@ -67,7 +67,7 @@
 }
 
 .contact form button {
-    background: #d39e71;
+    background: #4e3426;
     color: #d39e71;
     padding: 15px;
     border: none;
@@ -77,7 +77,8 @@
 }
 
 .contact form button:hover {
-    background: #4e3426;
+    background: #d39e71;
+    color: #4e3426;
 }
 
 .contact-col span {

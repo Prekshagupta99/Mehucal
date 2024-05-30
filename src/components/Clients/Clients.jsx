@@ -28,7 +28,7 @@ import '../Clients/Clients.css'
 const Clients = () => {
   return (
     <div>
-      <div className='clients'>
+      <div className='clients' name='clients'>
         <div className="client">
           <img src={image1} alt="" />
           <div className="caption">

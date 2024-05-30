@@ -96,6 +96,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.slick-prev:before, .slick-next:before {
+    color: #4e3426;
+}
+
 @media screen and (max-width: 1200px) {
     .products-categories {
         gap: 0.5rem; /* Reduced gap for smaller screens */

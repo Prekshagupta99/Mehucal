@@ -55,7 +55,7 @@ const Products = () => {
                     <button onClick={() => setCategory('Stainless Steel Fittings')}>Stainless Steel Fittings</button>
                 </p>
             </div>
-            <Slider {...settings} className="products-categories">
+            <Slider {...settings} className="products-categories color">
                 {getProducts().map((product, index) => (
                     <div className="category" key={index}>
                         <img src={product.image} alt={product.name} />

@@ -16,7 +16,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Title subTitle='Our Products' title='Feel free to reach us' />
+      <Title subTitle='Our Products' title='Some of our offerings' />
       <span></span>
       <Products />
       <Facility />
