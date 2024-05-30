@@ -9,7 +9,6 @@ const Facility = () => {
         <h3>OUR FACILITIES</h3>
          <h2>Quality without compromise</h2> 
         <p>
-        
 With a comprehensive array of in-house facilities encompassing everything from initial casting to meticulous finishing, our company is fully equipped to deliver excellence at every stage of production. Our extensive processes include casting, turning lathe work, hydraulic press punching, hydraulic bending, drilling, grinding, buffing, paint and coating application, chemical impregnation, and more. 
         </p>
         <p>From pneumatic testing to air-controlled calibration, endurance testing, and leakage testing, we ensure that our products meet stringent performance criteria. This commitment to quality assurance extends throughout every aspect of our operations, reflecting our dedication to customer satisfaction and product excellence.
