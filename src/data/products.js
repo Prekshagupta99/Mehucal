@@ -31,20 +31,20 @@ import image110 from "../assets/Product Images/MCI Fittings/pipe-socket-589.jpg"
 import image111 from "../assets/Product Images/MCI Fittings/pipe-sockets-590.jpg";
 import image112 from "../assets/Product Images/MCI Fittings/tee-union-female-a-type-654.jpg";
 
-import image201 from "../assets/Product Images/Railway Specific Products/Bracket_forS_trap.jpg";
-import image204 from "../assets/Product Images/Railway Specific Products/Flush_Cock-4.jpg";
-import image202 from "../assets/Product Images/Railway Specific Products/Flush_Cock.jpg";
-import image203 from "../assets/Product Images/Railway Specific Products/Flush_cock-3.jpg";
-import image205 from "../assets/Product Images/Railway Specific Products/Gravity_cock_RCF.jpg";
-import image206 from "../assets/Product Images/Railway Specific Products/Push_Type Flush_Valve_ICF.jpg";
-import image208 from "../assets/Product Images/Railway Specific Products/Push_Type_FLush_Valve_Brass.jpg";
-import image210 from "../assets/Product Images/Railway Specific Products/Push_Type_Flush_Valve-2.jpg";
-import image209 from "../assets/Product Images/Railway Specific Products/Push_Type_Flush_Valve_RCF.jpg";
-import image207 from "../assets/Product Images/Railway Specific Products/Push_type_flush_valve.jpg";
-import image211 from "../assets/Product Images/Railway Specific Products/S-Trap_CG16009_100mm.jpg";
-import image212 from "../assets/Product Images/Railway Specific Products/S-trapCG16012_150mm.jpg";
-import image214 from "../assets/Product Images/Railway Specific Products/U-Bracket.jpg";
-import image213 from "../assets/Product Images/Railway Specific Products/U_Bolt.jpg";
+import image201 from "../assets/Product Images/Railway Specific Products/Bracket_forS_trap.png";
+import image204 from "../assets/Product Images/Railway Specific Products/Flush_Cock-4.png";
+import image202 from "../assets/Product Images/Railway Specific Products/Flush_Cock.png";
+import image203 from "../assets/Product Images/Railway Specific Products/Flush_cock-3.png";
+import image205 from "../assets/Product Images/Railway Specific Products/Gravity_cock_RCF.png";
+import image206 from "../assets/Product Images/Railway Specific Products/Push_Type Flush_Valve_ICF.png";
+import image208 from "../assets/Product Images/Railway Specific Products/Push_Type_FLush_Valve_Brass.png";
+import image210 from "../assets/Product Images/Railway Specific Products/Push_Type_Flush_Valve-2.png";
+import image209 from "../assets/Product Images/Railway Specific Products/Push_Type_Flush_Valve_RCF.png";
+import image207 from "../assets/Product Images/Railway Specific Products/Push_type_flush_valve.png";
+import image211 from "../assets/Product Images/Railway Specific Products/S-Trap_CG16009_100mm.png";
+import image212 from "../assets/Product Images/Railway Specific Products/S-trapCG16012_150mm.png";
+import image214 from "../assets/Product Images/Railway Specific Products/U-Bracket.png";
+import image213 from "../assets/Product Images/Railway Specific Products/U_Bolt.png";
 
 import image301 from "../assets/Product Images/Stainless Steel (SS) Fittings/51DBIMIb0vL.jpg";
 import image303 from "../assets/Product Images/Stainless Steel (SS) Fittings/Glass_ss_fittings.jpg";

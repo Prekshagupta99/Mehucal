@@ -17,7 +17,7 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: Arial, sans-serif;
-    overflow: hidden; /* Disable scrolling */
+    overflow-x: hidden;
 }
 
 .products {
@@ -95,6 +95,7 @@ body {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 
 @media screen and (max-width: 1200px) {
     .products-categories {
