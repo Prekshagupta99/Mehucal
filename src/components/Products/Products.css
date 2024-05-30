@@ -72,12 +72,13 @@ body {
     flex-direction: column;
     background-color: white;
     gap: 1rem;
+    margin: 5px;
     color: rgba(0, 0, 0, 0.8);
     justify-content: space-between;
     align-items: center;
-    width: 29%; /* Adjust width to fit four cards in one row */
+    width: 22%; /* Adjust width to fit four cards in one row */
     height: 300px; /* Fixed height for uniform size */
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background 0.3s ease, transform 0.3s ease;
     text-align: center;

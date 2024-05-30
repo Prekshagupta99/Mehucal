@@ -44,7 +44,6 @@ import image207 from "../assets/Product Images/Railway Specific Products/Push_ty
 import image211 from "../assets/Product Images/Railway Specific Products/S-Trap_CG16009_100mm.png";
 import image212 from "../assets/Product Images/Railway Specific Products/S-trapCG16012_150mm.png";
 import image214 from "../assets/Product Images/Railway Specific Products/U-Bracket.png";
-import image213 from "../assets/Product Images/Railway Specific Products/U_Bolt.png";
 
 import image301 from "../assets/Product Images/Stainless Steel (SS) Fittings/51DBIMIb0vL.jpg";
 import image303 from "../assets/Product Images/Stainless Steel (SS) Fittings/Glass_ss_fittings.jpg";
@@ -96,6 +95,8 @@ export const mciData = [
 ];
 
 export const railwayData = [
+    { name: "S Trap CG16009 100mm", image: image211},
+    { name: "S Trap CG16012 150mm", image: image212},
     { name: "Bracket for S trap", image: image201},
     { name: "Flush Cock with Push Button", image: image202},
     { name: "Flush Cock FC-09", image: image203},
@@ -106,9 +107,6 @@ export const railwayData = [
     { name: "Push Type Flush Valve Brass", image: image208},
     { name: "Push Type Flush Valve RCF", image: image209},
     { name: "Push Type Flush Valve CI", image: image210},
-    { name: "S Trap CG16009 100mm", image: image211},
-    { name: "S Trap CG16012 150mm", image: image212},
-    { name: "U Bolt", image: image213},
     { name: "U Bracket", image: image214},
 ];
 

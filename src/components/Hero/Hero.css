@@ -48,11 +48,14 @@
     color: #d39e71;
     filter: brightness(100%);
     font-family: 'revue' , sans-serif;
+    white-space: nowrap;
 }
 
-.hero-text p{
+.hero-text h2{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
     filter: brightness(100%);
+    font-style: italic;
+    color: #d39e71;
 }

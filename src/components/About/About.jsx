@@ -11,25 +11,18 @@ const About = () => {
         <h3>ABOUT US</h3>
         <h2>Pursuit of Excellence</h2> 
         <p>
-        We are approved vendor of Indian Railways for various Products including Pneumatic Air
-brake fittings, MCI Fittings, Bio-toilet fittings, Retention Tank parts &amp; Accessories like S trap,
-etc. Also, we specialize in developing user specific &amp; customised products with best of
-quality.
-The enterprise has established its own brands “LAL” and “MEHUCAL” which are very well
-known &amp; most reliable in the industry.
+        Established in 1987, Mehucal India LLP is a multi-disciplinary manufacturer specializing in bathroom fittings, Bio Toilet fittings, and Pneumatic pipe fittings. We produce finished goods from die casting, sand casting, and investment casting in stainless steel, brass, and malleable cast iron, serving industries like railways, automobiles, construction, and machinery.</p>
+<p>
+As an approved vendor for Indian Railways, we supply products such as Pneumatic Air brake fittings, MCI Fittings, Bio-toilet fittings, and Retention Tank parts. We also develop customized products of the highest quality. Our brands, “LAL” and “MEHUCAL,” are well-known and trusted in the industry.
+Formerly known as “Kanchan Carbonates Pvt Ltd,” we are committed to quality products and after-sales service for both government and private entities.
+
         </p>
         <p>
-        Formerly Known as “Kanchan Carbonates Pvt Ltd”, Mehucal India LLP is focused on providing
-quality products and after sales service to its esteemed customers be it government
-organisation or any private entity. Leading the industry with continuous innovation and
-technology has always been our forte.
-        </p>
-        <p>
-        Our strong partnerships with suppliers, distributors, and clients all over the country have
-helped us establish a strong presence in the government sector as well as private market.
-We are delivering our products in almost every state of the country and still penetrating the
-market with our superior quality. We are constantly exploring new opportunities for growth
-and expansion, and we are open to collaborations that align with our values and vision.
+        We have an expert team of professionals for various processes of manufacturing and quality
+control. We are holding on to the vision of our founder Mr. Maman Chand Gupta of providing quality
+&amp; reliable products along with impeccable after sales services to all our clients. The baton is
+now in reliable &amp; experienced hands of Mr. Sanjay Gupta &amp; Mr. Sanchit Gupta to scale the
+legacy of our establishment to new heights.
         </p>
       </div>
     </div>
