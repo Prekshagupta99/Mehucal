@@ -4,17 +4,17 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    background-color: #f9f9f9; /* Light background color */
-    padding: 20px; /* Add some padding for better readability */
+    background-color: #f9f9f9;
+    padding: 20px;
 }
 
 .about-left {
-    flex-basis: 40%; /* Image on the left */
+    flex-basis: 40%;
     position: relative;
 }
 
 .about-right {
-    flex-basis: 56%; /* Text on the right */
+    flex-basis: 56%;
 }
 
 .about-img {
@@ -25,18 +25,18 @@
 .about h3 {
     font-weight: 600;
     font-size: 30px;
-    color: #4e3426; /* Dark text color */
+    color: #4e3426;
 }
 
 .about h2 {
     font-size: 20px;
-    color: #d39e71; /* Dark text color */
+    color: #d39e71;
     margin: 10px 0;
     max-width: 400px;
 }
 
 .about p {
-    color: #4e3426; /* Slightly darker text color for better contrast */
+    color: #4e3426;
     margin-bottom: 22px;
     font-size: 17px;
     text-align: justify;

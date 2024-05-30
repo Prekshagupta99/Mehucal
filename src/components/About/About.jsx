@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className="about-right">
         <h3>ABOUT US</h3>
-        <h2>Pursuit of Excellence</h2> 
+        <h2>Pursuit of Excellence</h2>
         <p>
         Established in 1987, Mehucal India LLP is a multi-disciplinary manufacturer specializing in bathroom fittings, Bio Toilet fittings, and Pneumatic pipe fittings. We produce finished goods from die casting, sand casting, and investment casting in stainless steel, brass, and malleable cast iron, serving industries like railways, automobiles, construction, and machinery.</p>
 <p>

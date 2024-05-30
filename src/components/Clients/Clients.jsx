@@ -32,156 +32,127 @@ const Clients = () => {
         <div className="client">
           <img src={image1} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image2} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image3} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image4} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
           
         </div>
         <div className="client">
           <img src={image5} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image6} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image7} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image8} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image9} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image10} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image11} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image12} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image13} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image14} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image15} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image16} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image17} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image18} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image19} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image20} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image21} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image22} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image23} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
         <div className="client">
           <img src={image24} alt="" />
           <div className="caption">
-            <p> TO BE ADDED</p>
           </div>
         </div>
-        {/* <div className="client">
-          <img src={image25} alt="" />
-        </div> */}
       </div>
-      
       </div>
   )
 }
