@@ -107,21 +107,21 @@ body {
 
 @media screen and (max-width: 1200px) {
     .products-categories {
-        gap: 0.5rem; 
+        gap: 0.4rem; 
     }
     .category {
-        width: 24%; 
+        width: 30%; 
     }
 }
 
 @media screen and (max-width: 768px) {
     .category {
-        width: 48%;
+        width: 45%;
     }
 }
 
 @media screen and (max-width: 480px) {
     .category {
-        width: 100%; 
+        width: 70%; 
     }
 }
