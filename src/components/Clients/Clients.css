@@ -17,8 +17,8 @@
 }
 
 .client img {
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   background-color: white;
   padding: 10px;
@@ -27,8 +27,8 @@
 
 .caption {
   border-radius: 10px;
-  height: 180px;
-  width: 180px;
+  height: 100%;
+  width: 100%;
   position: absolute;
   background: white;
   display: flex;
@@ -44,4 +44,58 @@
 .client:hover .caption {
   opacity: 0.8;
   padding-top: 0;
+}
+
+@media (max-width: 1024px) {
+  .client {
+    height: 150px;
+    width: 150px;
+  }
+
+  .client img {
+    padding: 8px;
+  }
+
+  .caption {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .client {
+    height: 130px;
+    width: 130px;
+  }
+
+  .client img {
+    padding: 6px;
+  }
+
+  .caption {
+    height: 130px;
+    width: 130px;
+  }
+}
+
+@media (max-width: 480px) {
+  .clients {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .client {
+    height: 110px;
+    width: 110px;
+    margin-bottom: 15px;
+  }
+
+  .client img {
+    padding: 4px;
+  }
+
+  .caption {
+    height: 110px;
+    width: 110px;
+  }
 }

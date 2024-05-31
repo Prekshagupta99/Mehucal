@@ -47,8 +47,8 @@
     font-weight: 600;
     color: #d39e71;
     filter: brightness(100%);
-    font-family: 'revue' , sans-serif;
     white-space: nowrap;
+    font-family: 'revue' , sans-serif;
 }
 
 .hero-text h2{
@@ -58,4 +58,47 @@
     filter: brightness(100%);
     font-style: italic;
     color: #d39e71;
+}
+
+/* For tablets and small desktops */
+@media (max-width: 1024px) {
+    .hero-text h1 {
+        font-size: 7vw; /* Increase font size */
+    }
+
+    .hero-text h2 {
+        font-size: 1.5em; /* Adjust font size */
+        max-width: 600px; /* Adjust max-width */
+    }
+}
+
+/* For large phones and tablets */
+@media (max-width: 768px) {
+    .hero-text {
+        padding: 0 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 8vw; /* Increase font size */
+    }
+
+    .hero-text h2 {
+        font-size: 1.3em; /* Adjust font size */
+        max-width: 500px; /* Adjust max-width */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text {
+        padding: 0 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 9vw;
+    }
+
+    .hero-text h2 {
+        font-size: 0.8em;
+        max-width: 90%;
+    }
 }

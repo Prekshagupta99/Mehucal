@@ -1,4 +1,4 @@
-.title{
+.title {
     text-align: center;
     color: #4e3426;
     font-size: 20px;
@@ -6,10 +6,43 @@
     text-transform: none;
     margin: 70px 150px 0px 150px;
 }
-.title h2{
+
+.title h2 {
     font-size: 34px;
     color: #d39e71;
     margin-top: 5px;
     text-transform: uppercase;
     margin: 70px 40px 10px 30px;
+}
+@media (max-width: 1024px) {
+    .title {
+    margin: 50px 100px 0px 100px;
+    }
+
+    .title h2 {
+    font-size: 30px;
+    margin: 50px 30px 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+    margin: 30px 50px 0px 50px;
+    }
+
+    .title h2 {
+    font-size: 28px;
+    margin: 30px 20px 10px 10px;
+    }
+}
+@media (max-width: 480px) {
+    .title {
+    margin: 20px 20px 0px 20px;
+    font-size: 18px;
+    }
+
+    .title h2 {
+    font-size: 24px;
+    margin: 20px 10px 10px 10px;
+    }
 }
