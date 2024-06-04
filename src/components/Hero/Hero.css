@@ -64,6 +64,7 @@
 @media (max-width: 1024px) {
     .hero-text h1 {
         font-size: 7vw; /* Increase font size */
+        font-family: 'revue' , sans-serif;
     }
 
     .hero-text h2 {
