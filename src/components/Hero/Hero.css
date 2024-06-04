@@ -72,19 +72,20 @@
     }
 }
 
-/* For large phones and tablets */
 @media (max-width: 768px) {
     .hero-text {
         padding: 0 15px;
     }
 
     .hero-text h1 {
-        font-size: 8vw; /* Increase font size */
+        font-size: 8vw; 
+        white-space: nowrap;
+        font-family: 'revue' , sans-serif;
     }
 
     .hero-text h2 {
-        font-size: 1.3em; /* Adjust font size */
-        max-width: 500px; /* Adjust max-width */
+        font-size: 1.3em;
+        max-width: 500px;
     }
 }
 
@@ -95,6 +96,8 @@
 
     .hero-text h1 {
         font-size: 9vw;
+        white-space: nowrap;
+        font-family: 'revue' , sans-serif;
     }
 
     .hero-text h2 {
