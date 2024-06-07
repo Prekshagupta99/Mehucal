@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Revue&display=swap');
 
-.hero{
+.hero {
     /*linear-gradient(rgba(58, 55, 0, 0.7),rgba(58, 55, 0, 0.7))*/
     background: url('../../assets/bg1.jpg');
     width: 100%;
@@ -28,7 +28,7 @@
     z-index: 0;
 }
 
-.hero-text{
+.hero-text {
     text-align: center;
     max-width: 800px;
     z-index: 1;
@@ -42,16 +42,16 @@
     padding: 0 20px;
 }
 
-.hero-text h1{
+.hero-text h1 {
     font-size: 75px;
     font-weight: 600;
     color: #d39e71;
     filter: brightness(100%);
     white-space: nowrap;
-    font-family: 'revue' , sans-serif;
+    font-family: 'Revue', sans-serif; /* Ensure font-family is specified */
 }
 
-.hero-text h2{
+.hero-text h2 {
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
@@ -64,7 +64,6 @@
 @media (max-width: 1024px) {
     .hero-text h1 {
         font-size: 7vw; /* Increase font size */
-        font-family: 'revue' , sans-serif;
     }
 
     .hero-text h2 {
@@ -81,7 +80,6 @@
     .hero-text h1 {
         font-size: 8vw; 
         white-space: nowrap;
-        font-family: 'revue' , sans-serif;
     }
 
     .hero-text h2 {
@@ -98,7 +96,6 @@
     .hero-text h1 {
         font-size: 9vw;
         white-space: nowrap;
-        font-family: 'revue' , sans-serif;
     }
 
     .hero-text h2 {
