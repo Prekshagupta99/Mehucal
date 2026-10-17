@@ -52,8 +52,8 @@
 }
 
 .dark-nav {
-  background: rgba(33, 70, 59, 0.97);
-  box-shadow: 0 18px 35px rgba(27, 48, 42, 0.2);
+  background: rgba(75, 48, 36, 0.97);
+  box-shadow: 0 18px 35px rgba(48, 31, 23, 0.2);
   backdrop-filter: blur(8px);
 }
 
@@ -86,7 +86,7 @@
     width: min(260px, 90vw);
     flex-direction: column;
     align-items: stretch;
-    background: rgba(33, 70, 59, 0.98);
+    background: rgba(75, 48, 36, 0.98);
     border-radius: 18px;
     padding: 1rem 0.8rem;
     box-shadow: var(--shadow-strong);

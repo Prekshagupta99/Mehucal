@@ -8,7 +8,7 @@
 
 .title h2 {
     font-size: clamp(1.5rem, 2vw, 2.3rem);
-    color: var(--green-accent);
+    color: var(--secondary-color);
     margin: 0 0 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;

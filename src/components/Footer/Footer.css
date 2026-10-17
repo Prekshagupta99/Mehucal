@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid rgba(33, 70, 59, 0.23);
+    border-top: 1px solid rgba(75, 48, 36, 0.23);
     padding: 1.2rem 0 1.8rem;
     color: var(--primary-color);
 }
