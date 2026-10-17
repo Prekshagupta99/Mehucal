@@ -20,8 +20,11 @@
   }
   
   .about-img {
-    width: 100%;
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 10px;
+    display: block;
   }
   
   .about h3 {
