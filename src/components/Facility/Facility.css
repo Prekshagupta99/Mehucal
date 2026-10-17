@@ -1,103 +1,82 @@
 .facility {
-    margin: 100px auto;
-    display: flex;
-    flex-wrap: wrap;
+    width: min(1200px, 90%);
+    margin: 6rem auto;
+    display: grid;
+    grid-template-columns: 1.25fr 0.95fr;
+    gap: 2.5rem;
     align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    background-color: #f9f9f9;
-    padding: 20px;
+    background: rgba(250, 249, 242, 0.86);
+    border: 1px solid rgba(33, 70, 59, 0.09);
+    border-radius: 28px;
+    padding: 2rem;
+    box-shadow: var(--shadow-soft);
 }
 
 .facility-left {
-    flex-basis: 56%;
-    margin-bottom: 20px;
+    color: var(--primary-color);
 }
 
 .facility-right {
-    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
 }
 
 .facility-img {
     width: 100%;
-    border-radius: 10px;
+    max-height: 420px;
+    object-fit: cover;
+    border-radius: 22px;
+    box-shadow: var(--shadow-soft);
 }
 
 .facility h3 {
-    font-weight: 600;
-    font-size: 2em;
-    color: #4e3426;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 2vw, 2.3rem);
+    letter-spacing: 0.08em;
+    color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .facility h2 {
-    font-size: 1.5em;
-    color: #d39e71;
-    margin: 10px 0;
-    max-width: 100%;
+    font-size: clamp(1.4rem, 1.9vw, 2rem);
+    color: var(--green-accent);
+    margin: 0.9rem 0 1.1rem;
+    font-weight: 700;
 }
 
 .facility p {
-    color: #4e3426;
-    margin-bottom: 22px;
-    font-size: 1em;
+    color: var(--primary-color);
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.8;
     text-align: justify;
 }
 
 @media (max-width: 1024px) {
     .facility {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .facility-left, .facility-right {
-        flex-basis: 100%;
-    }
-
-    .facility h3 {
-        font-size: 1.8em;
-    }
-
-    .facility h2 {
-        font-size: 1.4em;
-    }
-
-    .facility p {
-        font-size: 0.95em;
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
     }
 }
 
 @media (max-width: 768px) {
     .facility {
-        padding: 15px;
-    }
-
-    .facility h3 {
-        font-size: 1.6em;
-    }
-
-    .facility h2 {
-        font-size: 1.3em;
+        margin-top: 4.5rem;
+        margin-bottom: 4.5rem;
     }
 
     .facility p {
-        font-size: 0.9em;
+        font-size: 0.95rem;
     }
 }
 
 @media (max-width: 480px) {
     .facility {
-        padding: 10px;
-    }
-
-    .facility h3 {
-        font-size: 1.4em;
-    }
-
-    .facility h2 {
-        font-size: 1.2em;
+        width: min(92%, 460px);
+        padding: 1rem;
     }
 
     .facility p {
-        font-size: 0.65em;
+        font-size: 0.82rem;
     }
 }

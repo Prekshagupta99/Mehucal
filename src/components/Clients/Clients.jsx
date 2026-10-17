@@ -1,4 +1,3 @@
-import React from 'react'
 import image1 from '../../assets/ClientsLogos/image1.png'
 import image10 from '../../assets/ClientsLogos/image10.png'
 import image11 from '../../assets/ClientsLogos/image11.png'
@@ -28,7 +27,7 @@ import '../Clients/Clients.css'
 const Clients = () => {
   return (
     <div>
-      <div className='clients' name='clients'>
+      <div className='clients'>
         <div className="client">
           <img src={image1} alt="" />
           <div className="caption">

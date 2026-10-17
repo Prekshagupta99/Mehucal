@@ -1,10 +1,9 @@
-import React from 'react'
 import facility_pic from '../../assets/facilities.jpg'
 import '../Facility/Facility.css'
 
 const Facility = () => {
   return (
-    <div className='facility'>
+    <div className='facility' name='facility'>
       <div className="facility-left">
         <h3>OUR FACILITIES</h3>
          <h2>Quality without compromise</h2> 

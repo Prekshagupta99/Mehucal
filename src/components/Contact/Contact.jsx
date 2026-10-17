@@ -23,7 +23,7 @@ const Contact = () => {
     if (res.success) {
       console.log("Success", res);
       setResult(res.message);
-      formRef.current.reset(); // Reset form fields
+      event.target.reset();
     } else {
       console.log("Error", res);
       setResult(res.message);
@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='contact' name='contact'>
+    <div className='contact'>
       <div className='contact-col'>
         <h3>Send us a message<img src={msg_icon} alt="mail-icon" /></h3>
         <p>Feel free to reach out to us through contact information below.</p>
@@ -53,7 +53,7 @@ const Contact = () => {
           <textarea name="message" rows="5" placeholder='Enter your message' required></textarea>
           <button type='submit' className='btn dark-btn'>Submit now</button>
         </form>
-        <span>{result}</span>
+        <span aria-live="polite">{result}</span>
       </div>
     </div>
   );

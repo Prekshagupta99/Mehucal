@@ -3,47 +3,101 @@
 @import "slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=Revue&display=swap');
 
-*{
+:root {
+  --primary-color: #21463b;
+  --secondary-color: #b58a56;
+  --green-accent: #63816c;
+  --primary-soft: #e8efe8;
+  --panel-color: rgba(250, 249, 242, 0.94);
+  --ink-color: #293b34;
+  --muted-color: #566e60;
+  --shadow-soft: 0 20px 45px rgba(33, 70, 59, 0.11);
+  --shadow-strong: 0 28px 60px rgba(33, 70, 59, 0.17);
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
-body{
-  background-color: white;
-  
+
+html {
+  scroll-behavior: smooth;
 }
-a{
+
+body {
+  background: linear-gradient(180deg, #fbfaf5 0%, #e8efe8 100%);
+  color: var(--ink-color);
+}
+
+a {
   text-decoration: none;
   color: inherit;
   line-height: 1;
   cursor: pointer;
 }
 
-.container{
-  padding-left: 10%;
-  padding-right: 10%;
+:focus-visible {
+  outline: 3px solid var(--secondary-color);
+  outline-offset: 4px;
 }
 
-.btn{
-  background: #d39e71;
-  color: #4e3426;
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.container {
+  width: min(1240px, 90%);
+  margin: 0 auto;
+}
+
+.btn {
+  background: var(--secondary-color);
+  color: var(--primary-color);
   padding: 14px 25px;
   font-size: 16px;
   border-radius: 50px;
   cursor: pointer;
   border: 0;
   outline: 0;
+  transition: all 0.25s ease;
+  box-shadow: 0 12px 25px rgba(181, 138, 86, 0.23);
 }
 
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 34px rgba(181, 138, 86, 0.28);
+}
 
-/*media query*/
-@media (max-width:1200px){
-  .container{
-    padding-left: 5%;
-    padding-right: 5%;
+::selection {
+  background: rgba(181, 138, 86, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
-  .btn{
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: min(1240px, 92%);
+  }
+
+  .btn {
     padding: 14px 22px;
   }
 }

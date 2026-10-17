@@ -1,4 +1,3 @@
-import React from 'react';
 import '../src/index.css';
 import About from './components/About/About';
 import Clients from './components/Clients/Clients';
@@ -16,13 +15,12 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Title subTitle='Our Products' title='Some of our offerings' />
-      <span></span>
+      <Title name='products' subTitle='Our Products' title='Some of our offerings' />
       <Products />
       <Facility />
-        <Title subTitle='Our Clients' title='Exceeding the expectations, consistently' />
+      <Title name='clients' subTitle='Our Clients' title='Exceeding the expectations, consistently' />
       <Clients />
-      <Title subTitle='Contact us' title='Feel free to reach us' />
+      <Title name='contact' subTitle='Contact us' title='Feel free to reach us' />
       <Contact />
       <Footer />
     </div>

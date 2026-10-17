@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Slider from "react-slick";
 import { bathData, mciData, railwayData, ssData } from "../../data/products";
 import '../Products/Products.css';
@@ -46,13 +46,13 @@ const Products = () => {
     };
 
     return (
-        <div className="products" id="programs" name="products">
+        <div className="products" id="programs">
             <div>
                 <p className="products-subheader">
-                    <button onClick={() => setCategory('Bath Fittings')}>Bath Fittings</button>
-                    <button onClick={() => setCategory('MCI Fittings')}>MCI Fittings</button>
-                    <button onClick={() => setCategory('Railway Specific Products')}>Railway Specific Products</button>
-                    <button onClick={() => setCategory('Stainless Steel Fittings')}>Stainless Steel Fittings</button>
+                    <button type="button" aria-pressed={category === 'Bath Fittings'} className={category === 'Bath Fittings' ? 'active' : ''} onClick={() => setCategory('Bath Fittings')}>Bath Fittings</button>
+                    <button type="button" aria-pressed={category === 'MCI Fittings'} className={category === 'MCI Fittings' ? 'active' : ''} onClick={() => setCategory('MCI Fittings')}>MCI Fittings</button>
+                    <button type="button" aria-pressed={category === 'Railway Specific Products'} className={category === 'Railway Specific Products' ? 'active' : ''} onClick={() => setCategory('Railway Specific Products')}>Railway Specific Products</button>
+                    <button type="button" aria-pressed={category === 'Stainless Steel Fittings'} className={category === 'Stainless Steel Fittings' ? 'active' : ''} onClick={() => setCategory('Stainless Steel Fittings')}>Stainless Steel Fittings</button>
                 </p>
             </div>
             <Slider {...settings} className="products-categories color">
