@@ -38,7 +38,7 @@ const Contact = () => {
         <ul>
           <li><img src={phone_icon} alt="phone-icon" />Sanchit Gupta (Partner) <br>
           </br>+91-9310005160<br/>011-44077886</li>
-          <li><img src={mail_icon} alt="mail-icon" />mehucalindia@gmail.com</li>
+          <li><img src={mail_icon} alt="mail-icon" />info@mehucal.com</li>
           <li><img src={location_icon} alt="location-icon" />Regd Address: <br />A-1/22, Jeevan Jyoti Apartments, Pitampura, Delhi, 110034</li>
           <li><img src={location_icon} alt="location-icon" />Work: <br />246, Pocket-E, Sector - 4, DSIIDC Industrial Area, Bawana, Delhi - 110039</li>
         </ul>
